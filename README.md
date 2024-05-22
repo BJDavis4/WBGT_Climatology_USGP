@@ -1,15 +1,15 @@
 The scripts in this directory were used to generate the data and analysis for Davis et al 2024: Climatology of Wet Bulb Globe Temperature in the United States Great Plains, JAMC.
 
-1) Needed Data <\br>
-Hourly Oklahoma Mesonet data for 1998-2020 for all hours in .mdf format. <\br>
-	Variables Needed: <\br>
-	2 meter temperature (TAIR) <\br>
-	2 meter relative humidity (RELH) <\br>
-	2 meter wind speed (WS2M) <\br>
-	10 meter wind speed (WSPD) <\br>
-	Solar radiation (SRAD) <\br>
-	Surface pressure (PRES) <\br>
-        geoinfo.csv <\br>
+1) Needed Data <br>
+Hourly Oklahoma Mesonet data for 1998-2020 for all hours in .mdf format. <br>
+	Variables Needed: <br>
+	2 meter temperature (TAIR) <br>
+	2 meter relative humidity (RELH) <br>
+	2 meter wind speed (WS2M) <br>
+	10 meter wind speed (WSPD) <br>
+	Solar radiation (SRAD) <br>
+	Surface pressure (PRES) <br>
+        geoinfo.csv <br>
 
 Hourly ERA5 Reanalysis data for 1960-2020 for all hours in NetCDF format (Can use grib if you want to modify the code that reads in files)
 	Variables needed:
