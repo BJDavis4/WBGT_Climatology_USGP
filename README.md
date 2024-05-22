@@ -1,9 +1,9 @@
 The scripts in this directory were used to generate the data and analysis for Davis et al 2024: Climatology of Wet Bulb Globe Temperature in the United States Great Plains, JAMC.
 
 1) Needed Data
-Hourly Oklahoma Mesonet data for 1998-2020 for all hours in .mdf format.
-	Variables Needed:
-	2 meter temperature (TAIR)
+Hourly Oklahoma Mesonet data for 1998-2020 for all hours in .mdf format. \n
+	Variables Needed: \n
+	2 meter temperature (TAIR) \n
 	2 meter relative humidity (RELH)
 	2 meter wind speed (WS2M)
 	10 meter wind speed (WSPD)
@@ -72,7 +72,4 @@ wet_bulb.py
 Black_Globe.py
 WBGT.cpython-38-x86_64-linux-gnu.so (This is a compiled cython file. Your file name may vary)
 coszenith.cpython-38-x86_64-linux-gnu.so (This is a compiled cython file. Your file name may vary) 
-
-
-#Be more specific for the 
 
